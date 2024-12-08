@@ -70,4 +70,15 @@
 ```"outDir": "dist/",```
 
 
+- change in file tsconfig.json
+- include and exclude if you file in exclude file is not compile to Javascript
+
+```
+{ 
+  "include":["src/**/*"],
+  "exclude":["test/**/*"],
+  "compilerOptions":
+}
+```
+
 
