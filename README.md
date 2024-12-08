@@ -4,6 +4,7 @@
 
 ```npm install --save-dev babel-jest @babel/preset-env```
 
+
 >Edit script package json
 
 ```
@@ -17,9 +18,11 @@
   },
 ```
 
+
 >Install TypeScript
 
 ```npm install --save-dev typescript```
+
 
 >Setup TypeScript Project
 
@@ -28,6 +31,7 @@
 if you use ES6 change in tsconfig.json
 
 ```"module": "ES6",```
+
 
 >Setup jest and buble Typescript
 
