@@ -31,16 +31,16 @@
 
 - if you use ES6 change in tsconfig.json
 
- ```"module": "ES6",```
+- ```"module": "ES6",```
 
 
 ### 🚀 Setup Jest 🃏 and Babel 🔧 with TypeScript <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 
- ```npm install --save-dev @babel/preset-typescript```
+- ```npm install --save-dev @babel/preset-typescript```
 
 - add config in babel.config.json
 
- ```@babel/preset-typescript```
+- ```@babel/preset-typescript```
 
 - current view babel.config.json
 
@@ -55,19 +55,19 @@
 ```
 - next intall package
 
-```npm install --save-dev @jest/globals```
+- ```npm install --save-dev @jest/globals```
 
 - next intall package
 
-```npm install --save-dev @types/jest```
+- ```npm install --save-dev @types/jest```
 
 ### compilasi Typescript <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" /> to Javascript <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="24" />
 
-```npx tsc```
+- ```npx tsc```
 
 - change the location of the compiled file
 - enter into ```tsconfig.json``` search 
-```"outDir": "dist/",```
+- ```"outDir": "dist/",```
 
 
 - change in file tsconfig.json
@@ -81,8 +81,24 @@
 }
 ```
 
+### Tipe Data Primitif In Typescript <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
+
+```
+const name:string = "kurniawan";
+const age:number = 123;
+const isHandsome:boolean = true;
+
+console.log(name);
+console.log(age);
+console.log(isHandsome);
+```
+
+
 ###  watch Typescript all time 📦
 - run typescript compilation continuously to avoid invalidation when jest unit test passes, run the command
 
-```npx tsc --watch```
+- ```npx tsc --watch```
+
+### Tipe Data Array In Typescript <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
+
 
