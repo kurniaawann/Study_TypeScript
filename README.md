@@ -16,7 +16,7 @@
       "^.+\\.[t|j]sx?$": "babel-jest"
     }
   },
-```
+- ```
 
 
 > Install TypeScript
