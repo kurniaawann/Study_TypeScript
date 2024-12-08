@@ -119,16 +119,13 @@ console.log(values);
 ```
 const hobbies: ReadonlyArray<string> = ["read", "watch"]
 console.log(hobbies[1]);
-
 ```
 
 ### tupple araay
 
--This is an array of predetermined length and can only be viewed
+- This is an array of predetermined length and can only be viewed
 ```
+
 const person: readonly [string, string, number] = ['kurniawan', 'typescript', 1];
 console.log(person[0]);
-
 ```
-
-
