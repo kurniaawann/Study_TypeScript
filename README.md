@@ -487,4 +487,59 @@ console.log(person2);
 
 ```
 
+### function <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
+
+
+- function return string
+```typescript
+function sayHello(name: string): string {
+    return `Hello ${name}`
+}
+
+console.log(sayHello('kurniawan'));
+
+```
+
+-function void
+``` typescript
+function myName(): void {
+    console.log('kurniawan');
+}
+
+console.log(myName());
+```
+
+### function overloading <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
+
+```typescript
+function callMe(value: number): number;
+function callMe(value: string): string;
+function callMe(value: any):any {
+    if (typeof value === "string") {
+        return value.toUpperCase();
+    }else if (typeof value === "number"){
+        return value + 2
+    }
+}
+
+expect(callMe('kurniawan')).toBe("KURNIAWAN");
+expect(callMe(2)).toBe(4);
+
+```
+### function parameter <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
+
+```typescript
+function sayHello(name:string, filter: (name:string)=> string){
+    return `Hello ${filter(name)}`;
+}
+
+function toUpperCase(name: string): string {
+    return name.toUpperCase()
+}
+
+console.log((sayHello('kurniawan', toUpperCase)));
+```
+
+
+
 
