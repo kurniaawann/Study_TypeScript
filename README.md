@@ -66,7 +66,7 @@
 ```npx tsc```
 
 - change the location of the compiled file
-- enter into tsconfig.json search 
+- enter into ```tsconfig.json``` search 
 ```"outDir": "dist/",```
 
 
