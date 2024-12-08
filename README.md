@@ -21,12 +21,12 @@
 
 >Install TypeScript
 
- ```npm install --save-dev typescript```
+- ```npm install --save-dev typescript```
 
 
 >Setup TypeScript Project
 
- ```npx tsc --init```
+- ```npx tsc --init```
 
  if you use ES6 change in tsconfig.json
 
