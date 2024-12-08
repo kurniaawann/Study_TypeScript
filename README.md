@@ -1,4 +1,4 @@
-*Setup jest and buble js
+>Setup jest and buble js
 
 ```npm install --save-dev jest @types/jest```
 
