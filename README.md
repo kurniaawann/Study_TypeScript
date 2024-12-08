@@ -1,8 +1,8 @@
 >Setup jest and buble js
 
--```npm install --save-dev jest @types/jest```
+- ```npm install --save-dev jest @types/jest```
 
--```npm install --save-dev babel-jest @babel/preset-env```
+- ```npm install --save-dev babel-jest @babel/preset-env```
 
 
 >Edit script package json
