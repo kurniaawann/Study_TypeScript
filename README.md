@@ -81,4 +81,8 @@
 }
 ```
 
+###  watch Typescript all time 📦
+- run typescript compilation continuously to avoid invalidation when jest unit test passes, run the command
+
+```npx tsc --watch```
 
