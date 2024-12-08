@@ -1,5 +1,5 @@
-### 🚀 Setup jest and buble js
-# 🚀 Setup Jest 🃏, Babel.js ⚡, and ![TypeScript](https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png)
+### 🚀 Setup Jest and Buble JS
+# 🚀 Setup Jest 🃏, Babel.js ⚡, and <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="20" height="20" />
 
 
 - ```npm install --save-dev jest @types/jest```
