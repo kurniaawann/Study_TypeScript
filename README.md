@@ -1,4 +1,6 @@
 ### 🚀 Setup jest and buble js
+# 🚀 Setup Jest 🃏, Babel.js ⚡, and ![TypeScript](https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png)
+
 
 - ```npm install --save-dev jest @types/jest```
 
