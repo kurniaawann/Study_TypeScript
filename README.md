@@ -20,12 +20,12 @@
 ```
 
 
-###  Install TypeScript
+###  Install TypeScript 📦
 
 - ```npm install --save-dev typescript```
 
 
-### Setup TypeScript Project
+### Setup TypeScript Project 📦
 
 - ```npx tsc --init```
 
@@ -34,7 +34,7 @@
  ```"module": "ES6",```
 
 
-### Setup Jest and Babel with TypeScript
+### 🚀 Setup Jest 🃏 and Babel 🔧 with TypeScript <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 
  ```npm install --save-dev @babel/preset-typescript```
 
