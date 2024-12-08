@@ -102,3 +102,33 @@ console.log(isHandsome);
 ### Tipe Data Array In Typescript <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 
 
+### araay in Typescript
+
+- This is a common way in general
+```
+const nameFruit: string[] = ["apple", "watermelon", "manggo"];
+const values: number[] = [1,2,3,4]
+
+console.log(nameFruit);
+console.log(values);
+```
+
+### read only array
+
+- an array that can only be viewed
+```
+const hobbies: ReadonlyArray<string> = ["read", "watch"]
+console.log(hobbies[1]);
+
+```
+
+### tupple araay
+
+-This is an array of predetermined length and can only be viewed
+```
+const person: readonly [string, string, number] = ['kurniawan', 'typescript', 1];
+console.log(person[0]);
+
+```
+
+
