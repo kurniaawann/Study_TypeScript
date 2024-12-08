@@ -28,7 +28,7 @@
 
 ```npx tsc --init```
 
-if you use ES6 change in tsconfig.json
+- if you use ES6 change in tsconfig.json
 
 ```"module": "ES6",```
 
@@ -37,11 +37,11 @@ if you use ES6 change in tsconfig.json
 
 ```npm install --save-dev @babel/preset-typescript```
 
-add config in babel.config.json
+- add config in babel.config.json
 
 ```@babel/preset-typescript```
 
-current view babel.config.json
+- current view babel.config.json
 
 ```
 {
@@ -52,11 +52,11 @@ current view babel.config.json
     
 }
 ```
-next intall package
+- next intall package
 
 ```npm install --save-dev @jest/globals```
 
-next intall package
+- next intall package
 
 ```npm install --save-dev @types/jest```
 
