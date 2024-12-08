@@ -1,11 +1,11 @@
-> Setup jest and buble js
+>Setup jest and buble js
 
 - ```npm install --save-dev jest @types/jest```
 
 - ```npm install --save-dev babel-jest @babel/preset-env```
 
 
-> Edit script package json
+>Edit script package json
 
 - ```
 "scripts": {
@@ -16,15 +16,15 @@
       "^.+\\.[t|j]sx?$": "babel-jest"
     }
   },
-- ```
+```
 
 
-> Install TypeScript
+>Install TypeScript
 
 - ```npm install --save-dev typescript```
 
 
-> Setup TypeScript Project
+>Setup TypeScript Project
 
 - ```npx tsc --init```
 
@@ -33,7 +33,7 @@
 - ```"module": "ES6",```
 
 
-> Setup jest and buble Typescript
+>Setup jest and buble Typescript
 
 - ```npm install --save-dev @babel/preset-typescript```
 
