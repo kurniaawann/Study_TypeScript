@@ -184,7 +184,7 @@ function process(value:number | string | boolean){
         expect(process(true)).toBe(false);
 ```
 
-### alias type
+### alias type <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 
 ```typescript
 export type  Category =  {
@@ -244,7 +244,7 @@ export type Product = {
 }
 ```
 
-### object Type
+### object Type <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 
 ```typescript
 
@@ -263,7 +263,7 @@ const person: {id: string, name:string} = {
 ```
 
 
-### optional
+### optional <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 ```typescript
 
 const person: {id?: string,name:string} = {
@@ -276,7 +276,7 @@ person.name = "awan"
 console.log(person);
 ```
 
-### enum
+### enum <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 ```typescript
 export enum CustomerType {
     REGULAR,
@@ -299,7 +299,7 @@ console.log(customer);
 
 ```
 
-### undifine and null
+### undifine and null <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 ```typescript
 function hello(name?:string | null) {
     if (name) {
@@ -314,7 +314,7 @@ const name: string | undefined = undefined
 console.log(name);
 ```
 
-### interface
+### interface <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 
 ```typescript
 
@@ -356,7 +356,7 @@ seller.nib = '12345'
 console.log(seller);
 ```
 
-### function interface
+### function interface <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 
 ```typescript
 interface addFunction {
@@ -367,7 +367,7 @@ return value1 + value2
 }
 ```
 
-### index label interface
+### index label interface <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 
 - araay
 ```typescript
@@ -394,7 +394,7 @@ const name: stringDirectory = {
 console.log(name);
 ```
 
-### extending interface
+### extending interface <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 ```typescript
 export interface  Employe{
     id: string,
@@ -426,7 +426,7 @@ const manager:Manager = {
    console.log(manager);
 ```
 
-### function in interface
+### function in interface <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 ```typescript
 interface Person {
     name:string,
@@ -445,7 +445,7 @@ console.log(person.hello("kurniawan"));
 ```
 
 
-### intersection type
+### intersection type <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 
 ```typescript
 interface Hasname { 
@@ -467,7 +467,7 @@ console.log(domain);
 
 ```
 
-### type assertions
+### type assertions <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" />
 ```typescript
 export interface Person {
     name:string,
