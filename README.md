@@ -29,7 +29,7 @@
 
 - ```npx tsc --init```
 
- if you use ES6 change in tsconfig.json
+- if you use ES6 change in tsconfig.json
 
  ```"module": "ES6",```
 
@@ -38,11 +38,11 @@
 
  ```npm install --save-dev @babel/preset-typescript```
 
- add config in babel.config.json
+- add config in babel.config.json
 
  ```@babel/preset-typescript```
 
- current view babel.config.json
+- current view babel.config.json
 
  ```
 {
@@ -53,13 +53,21 @@
     
 }
 ```
-next intall package
+- next intall package
 
 ```npm install --save-dev @jest/globals```
 
- next intall package
+- next intall package
 
 ```npm install --save-dev @types/jest```
+
+### compilasi Typescript <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="24" /> to Javascript <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/JavaScript-logo.png" alt="JavaScript" width="24" />
+
+```npx tsc```
+
+- change the location of the compiled file
+- enter into tsconfig.json search 
+```"outDir": "dist/",```
 
 
 
